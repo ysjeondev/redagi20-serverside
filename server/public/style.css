@@ -1,0 +1,32 @@
+/* ==========================================
+   SSR 정적 파일 제공 실습
+   파일: server/public/style.css
+========================================== */
+
+/* 전체 페이지 기본 디자인 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 40px;
+}
+
+/* React SSR로 생성한 영역 */
+#root {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #2563eb;
+    font-size: 32px;
+}
+
+/* 본문 스타일 */
+p {
+    color: #444;
+    font-size: 18px;
+}

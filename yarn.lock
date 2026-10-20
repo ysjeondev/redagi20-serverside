@@ -4396,7 +4396,7 @@ expect@^27.5.1:
     jest-matcher-utils "^27.5.1"
     jest-message-util "^27.5.1"
 
-express@^4.17.3:
+express@4, express@^4.17.3:
   version "4.22.3"
   resolved "https://registry.yarnpkg.com/express/-/express-4.22.3.tgz#e8f898d3c17582b1e311dd2c5cd6d8deff84724b"
   integrity sha512-Bdcs4+3qlpVlx2NRn6fgX2Ue2/gGRaPeawebgclM0ERSCqDpA+owF1fdPwjJUTAJWMTuAaxjDf+hzb0/4eKvvw==

@@ -14,6 +14,9 @@ module.exports = {
     output: {
         path: paths.ssrBuild,
         filename: 'server.js',
+        library: {
+            type: 'commonjs2'
+        }
     },
 
     externals: [nodeExternals()],
