@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Menu from './components/Menu';
 import RedPage from './pages/RedPage';
 import BluePage from './pages/BluePage';
+import UsersContainer from './containers/UsersContainer';
 
 const App = () => {
     return (
@@ -17,6 +18,13 @@ const App = () => {
                     path="/blue"
                     component={BluePage}
                 />
+
+                {/* 사용자 목록 페이지 */}
+                <Route
+                    path="/users"
+                    component={UsersContainer}
+                />
+
             </Switch>
         </div>
     );
